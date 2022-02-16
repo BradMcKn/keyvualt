@@ -112,7 +112,7 @@ resource "azurerm_virtual_machine" "linux1" {
   tags = var.tags
 }
 resource "azurerm_key_vault" "bjmsecrets" {
-  name                        = "examplekeyvault"
+  name                        = "bjmsecrets"
   location                    = azurerm_resource_group.pg.location
   resource_group_name         = azurerm_resource_group.pg.name
   enabled_for_disk_encryption = true
