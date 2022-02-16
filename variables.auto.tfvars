@@ -44,5 +44,5 @@ security_rule_source_address_prefix      = "*"
 security_rule_destination_address_prefix = "*"
 
 #Vault Variables
-secrets_rg_name   = "secrets"
+secrets_rg_name   = "BradM_RG"
 secret_vault_name = "bjmsecrets"
